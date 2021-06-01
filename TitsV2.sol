@@ -728,7 +728,7 @@ contract TITSV2 is Context, IERC20, Ownable {
     bool inSwapAndLiquify;
     bool public swapAndLiquifyEnabled = true;
 
-    uint256 public _maxTxAmount = 10000000 * 10**6 * 10**9;
+    uint256 public _maxTxAmount = 25000000 * 10**6 * 10**9;
     uint256 private numTokensSellToAddToLiquidity = 750000 * 10**6 * 10**9;
 
     event MinTokensBeforeSwapUpdated(uint256 minTokensBeforeSwap);
